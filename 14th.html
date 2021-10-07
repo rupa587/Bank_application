@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta http-equi="X-UA-Compatible" content="ie-edge">
+    <title>14th page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="getName()">
+    <ul class="new1">
+        <li class="new"><i class="fa fa-user-circle" id="user"></i>&nbsp;</li>
+        <li class="neww"><i class="fa fa-money" style="font-size:25px;"></i></li>
+    </ul>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate from" id="from">
+            <div class="p-4 border-bottom">
+                <div class="row">
+                    <div class="col-md-8 col-9" style="font-family: 'Times New Roman', serif; font-size: 15px;">
+                        <center>
+                            <h2 class="font-size-20 mb-1">Verification</h2>
+                        </center>
+                        <center>
+                            <p>Let's verify your documents</p>
+                        </center>
+                        <hr size="1" width="90%" color="black"> 
+                    </div>
+                </div>
+            </div><br><br><br>
+
+            <div class="container">
+                <label>Aadhar Number<span style="color:#ff0000">*</span></label>
+                <input type="number" placeholder="Aadhar Number" name="Aadhar" id="aadharno" required>
+                <br><br><br><br><br>
+                <br>
+                <label>Enter your PAN<span style="color:#ff0000">*</span></label>
+                <input type="text" placeholder="Enter your PAN" name="pan" id="pannumber" required>
+                <br><br><br>
+                
+                <center><button class="btn" type="button" onclick="checkDetails()">Continue</button></center><br><br>
+                
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

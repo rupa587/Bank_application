@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta http-equi="X-UA-Compatible" content="ie-edge">
+        <title>9th</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="getName()">
+        <ul class="new1">
+            <li class="new"><i class="fa fa-user-circle" id="user"></i>&nbsp;</li>
+            <li class="neww"><i class="fa fa-money" style="font-size:25px;"></i></li>
+        </ul>
+        
+        <div id="id01" class="modal">
+        <form class="modal-content animate" id="from" >
+            <div class="p-4 border-bottom">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-9" style="font-family: 'Times New Roman', serif; font-size: 15px;">
+                                                        <center><h2 class="font-size-20 mb-1">Your Loan Goals</h2>
+                                                            <p>Tell us about the property your looking for</p>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                <div class="container">
+                    <label for="State" >In which state are you looking to buy? <span style="color:#ff0000">*</span></label><br>
+                   <select class="state" required id="state-dropdown">
+                    <option value="Select an option">Select an option</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                    </select>
+
+                    <label for="city">City <span style="color:#ff0000">*</span></label><br>
+                    <input type="text" name="city" placeholder="Enter Your City " required id="city"><br><br>
+
+                    <label for="pp">Purchase Price <span style="color:#ff0000">*</span></label><br>
+                    <input type="number" name="pp" placeholder="Purchase Price " required id="pp"><br><br>
+
+                      <label for="ppp">Down Payment in Percentage <span style="color:#ff0000">*</span></label>
+                    <input type="number" placeholder="Down Payment in % " name="ppp" required id="ppp"><br><br>
+                    
+                    <label for="dla">Desired Loan Amount <span style="color:#ff0000">*</span></label>
+                    <input type="text" placeholder="Desired Loan Amount" required id="dla" name="dla"><br>
+                    
+                    <center><button class="btn" onclick="pageNineSubmitPressed()" type="button">Continue</button></center>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

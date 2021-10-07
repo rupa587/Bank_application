@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta http-equi="X-UA-Compatible" content="ie-edge">
+        <title>Second screen</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <ul class="new1">
+            <li class="new"><i class="fa fa-question-circle"></i>&nbsp;Contact Us: +91 9206648146</li>
+            <li class="neww"><i class="fa fa-money" style="font-size:25px;"></i></li>
+        </ul>
+        
+        
+        <div id="id01" class="modal">
+        <form class="modal-content animate" id="from" >
+            <div class="p-4 border-bottom">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-9" style="font-family: 'Times New Roman', serif; font-size: 15px;">
+                                                        <center><h2 class="font-size-20 mb-1">Start a Loan Application</h2>
+                                                            <p>Beginning a loan application process? You are in<br>the right place. Get started by giving a basic<br> information about yourself</p>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                <div class="container">
+                    <label for="uname">First Name <span style="color:#ff0000">*</span></label>
+                    <input type="text" placeholder="First Name" name="fname" required id="fname">
+
+                    <label for="lname">Last Name <span style="color:#ff0000">*</span></label>
+                    <input type="text" placeholder="Your surname " name="lname" required id="lname"><br>
+
+                    <label for="dob">Birth Date <span style="color:#ff0000">*</span></label><br>
+                    <input type="date" name="bdate" placeholder="16.12.1992" required id="bdate"><br>
+
+                    <label for="gender">Gender <span style="color:#ff0000">*</span></label><br>
+                    <form action="">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="gender" id="male" value="male" checked> Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" id="female" value="female"> Female
+                      </form><br><br>
+
+                      <label for="number">Phone <span style="color:#ff0000">*</span></label>
+                    <input type="number" placeholder=" Your phone number" name="cno" required id="cno"><br>
+                    
+                    <label for="email">Email <span style="color:#ff0000">*</span></label>
+                    <input type="email" placeholder="Your email" required id="email" name="email"><br>
+                    
+                    <center><button class="btn" type="button" onClick="pageTwoSubmitPressed()">Continue</button></center>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

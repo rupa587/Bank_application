@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <meta http-equi="X-UA-Compatible" content="ie-edge">
+    <title>11th</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body onload="getName()">
+    <ul class="new1">
+        <li class="new"><i class="fa fa-user-circle" id="user"></i>&nbsp;</li>
+        <li class="neww"><i class="fa fa-money" style="font-size:25px;"></i></li>
+    </ul>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate " id="from">
+            <div class="p-4 border-bottom">
+                <div class="row">
+                    <div class="col-md-8 col-9" style="font-family: 'Times New Roman', serif; font-size: 15px;">
+                        <br><br><br>
+                        <center>
+                            <img src="img/page 11,12 & 13.PNG" alt="something went wrong"  width="225" height="225">
+                            <h2 class="font-size-20 mb-1">Calculate your credit score</h2>
+                        </center>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <label for="Age">Select your Age<span style="color:#ff0000">*</span></label>
+                <select class="age" id="age-dropdown">
+                    <option id="age18">18</option>
+                    <option id="age19">19</option>
+                    <option id="age20">20</option>
+                    <option id="age21">21</option>
+                    <option id="age22">22</option>
+                    <option id="age23">23</option>
+                    <option id="age24">24</option>
+                    <option id="age25">25</option>
+                    <option id="age26">26</option>
+                    <option id="age27">27</option>
+                    <option id="age28">28</option>
+                    <option id="age29">29</option>
+                    <option id="age30">30</option>
+                    <option id="age31">31</option>
+                    <option id="age32">32</option>
+                    <option id="age33">33</option>
+                    <option id="age34">34</option>
+                    <option id="age35">35</option>
+                    <option id="age36">36</option>
+                    <option id="age37">37</option>
+                    <option id="age38">38</option>
+                    <option id="age39">39</option>
+                    <option id="age40">40</option>
+                    <option id="age41">41</option>
+                    <option id="age42">42</option>
+                    <option id="age43">43</option>
+                    <option id="age44">44</option>
+                    <option id="age45">45</option>
+                    <option id="age46">46</option>
+                    <option id="age47">47</option>
+                    <option id="age48">48</option>
+                    <option id="age49">49</option>
+                    <option id="age50">50</option>
+                    <option id="age51">51</option>
+                    <option id="age52">52</option>
+                    <option id="age53">53</option>
+                    <option id="age54">54</option>
+                    <option id="age55">55</option>
+                    <option id="age56">56</option>
+                    <option id="age57">57</option>
+                    <option id="age58">58</option>
+                    <option id="age59">59</option>
+                    <option id="age60">60</option>
+                    <option id="age61">61</option>
+                    <option id="age62">62</option>
+                    <option id="age63">63</option>
+                    <option id="age64">64</option>
+                    <option id="age65">65</option>
+                    <option id="age66">66</option>
+                    <option id="age67">67</option>
+                    <option id="age68">68</option>
+                    <option id="age69">69</option>
+                    <option id="age70">70</option>
+                    <option id="age71">71</option>
+                    <option id="age72">72</option>
+                    <option id="age73">73</option>
+                    <option id="age74">74</option>
+                    <option id="age75">75</option>
+                    <option id="age76">76</option>
+                    <option id="age77">77</option>
+                    <option id="age78">78</option>
+                    <option id="age79">79</option>
+                    <option id="age80">80</option>
+                    <option id="age81">81</option>
+                    <option id="age82">82</option>
+                    <option id="age83">83</option>
+                    <option id="age84">84</option>
+                    <option id="age85">85</option>
+                    <option id="age86">86</option>
+                    <option id="age87">87</option>
+                    <option id="age88">88</option>
+                    <option id="age89">89</option>
+                    <option id="age90">90</option>
+                    <option id="age91">91</option>
+                    <option id="age92">92</option>
+                    <option id="age93">93</option>
+                    <option id="age94">94</option>
+                    <option id="age95">95</option>
+                    <option id="age96">96</option>
+                    <option id="age97">97</option>
+                    <option id="age98">98</option>
+                    <option id="age99">99</option>
+                    <option id="age100">100</option>
+
+                </select>
+
+                <br>
+                <br>
+
+                <label>Annual income<span style="color:#ff0000">*</span></label>
+                <input type="number" placeholder="Enter your Annual income" name="ann income" id="annincome" required>
+
+                <br>
+                <br>
+                <center>
+                    <button class="btn" type="button" onclick="getCreditScore()">Continue</button><br>
+                </center>
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
